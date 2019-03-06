@@ -26,6 +26,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
+rg.TurtleWindow().
 
 ###############################################################################
 #

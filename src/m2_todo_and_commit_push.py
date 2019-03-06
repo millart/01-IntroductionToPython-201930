@@ -85,9 +85,6 @@ print(3607*34227)
 #   whom you trust:
 #      What number did your   print   display for this TO-DO?
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
-
-#   The number displayed is 123456789
-
 #
 ###############################################################################
 

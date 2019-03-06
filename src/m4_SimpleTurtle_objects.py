@@ -26,7 +26,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 import rosegraphics as rg
-rg.TurtleWindow().
+# rg.TurtleWindow(). using the dot method to see the names of things
+# to see the quick documentation, click on the item and the "quick documentation" under the View drop down (also can use Crl + Q)
 
 ###############################################################################
 #

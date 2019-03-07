@@ -27,7 +27,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 import rosegraphics as rg
 # rg.TurtleWindow(). using the dot method to see the names of things
-# to see the quick documentation, click on the item and the "quick documentation" under the View drop down (also can use Crl + Q)
+# to see the quick documentation, click on the item & "quick documentation" under the View dropdown (also can use Crl+Q)
 
 ###############################################################################
 #
@@ -127,15 +127,15 @@ natasha.go_to(rg.Point(-100, 200))
 #
 #   As always, test by running the module.
 #
-natasha.speed = 3 # Slightly faster
+natasha.speed = 3  # Slightly faster
 natasha.right(45)
 natasha.forward(100)
-natasha.go_to(rg.Point(-200,0))
+natasha.go_to(rg.Point(-200, 0))
 ###############################################################################
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -158,11 +158,20 @@ natasha.go_to(rg.Point(-200,0))
 #
 #   As always, test by running the module.
 #
+emily = rg.SimpleTurtle('turtle')
+emily.pen = rg.Pen('blue', 20)  # color and thickness
+emily.speed = 5  # medium speed (higher value, the faster - max is 10)
+emily.forward(200)
+emily.right(45)  # direction is with respect to the x-axis (horizontal line)
+emily.backward(100)
+emily.right(45)
+emily.forward(140)
+emily.go_to(rg.Point(200, 0))
 ###############################################################################
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #

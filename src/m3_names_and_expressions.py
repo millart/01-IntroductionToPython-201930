@@ -48,8 +48,8 @@ print(math.sqrt(x))
 
 step1 = 41 * 88
 step2 = 4 * math.cos(2)
-finalstep = step1 + step2
-print(finalstep)
+final = step1 + step2
+print(final)
 
 ###############################################################################
 

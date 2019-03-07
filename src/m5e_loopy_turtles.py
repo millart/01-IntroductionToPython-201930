@@ -57,7 +57,7 @@ blue_turtle.pen = rg.Pen('midnight blue', 3)
 blue_turtle.speed = 20  # Fast
 
 # The first square will be 300 x 300 pixels:
-size = 150
+size = 150  # is this because the axis is defined by -150 to 150?
 
 # Do the indented code 6 times.  Each time draws a square.
 for k in range(6):

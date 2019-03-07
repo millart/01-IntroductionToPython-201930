@@ -2,15 +2,15 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Emily Millard.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -27,4 +27,60 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+window.delay(20)
+
+circle = rg.SimpleTurtle('turtle')
+circle.pen = rg.Pen('blue', 5)  # color and thickness
+circle.speed = 20  # medium speed (higher value, the faster)
+size = 150
+circle.pen_up()
+circle.forward(-200)
+circle.right(90)
+circle.forward(110)
+circle.left(90)
+circle.pen_down()
+
+for k in range(20):
+    circle.draw_circle(size)
+
+    circle.pen_up()
+    circle.right(30)
+    circle.backward(15)
+
+    circle.pen_down()
+    size = size - 5
+
+shape = rg.SimpleTurtle('turtle')
+shape.pen = rg.Pen('green', 2)
+shape.speed = 20
+square_size = 100
+circle_size = 100
+shape.pen_up()
+shape.forward(200)
+shape.left(90)
+shape.forward(110)
+shape.right(90)
+shape.pen_down()
+
+for k in range(30):
+    shape.draw_square(square_size)
+    shape.pen_up()
+    shape.right(30)
+    shape.forward(15)
+
+    square_size = square_size - 2
+    shape.pen_down()
+
+    shape.draw_circle(circle_size)
+    shape.pen_up()
+    shape.right(30)
+    shape.forward(15)
+
+    circle_size = square_size -2
+    shape.pen_down()
+
+window.close_on_mouse_click()
 ########################################################################

@@ -11,26 +11,26 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
-#    - Constructs a SimpleTurtle with a  'blue'  Pen.
+#    - Constructs a SimpleTurtle with a  'blue'  Pen. //
 #
-#    - Makes the SimpleTurtle go straight UP 200 pixels.
+#    - Makes the SimpleTurtle go straight UP 200 pixels. //
 #
-#    - Makes the SimpleTurtle lift its pen UP
+#    - Makes the SimpleTurtle lift its pen UP //
 #         (so that the next movements do NOT leave a "trail")
 #         HINT: Use the "dot trick" to figure out how to do this.
 #
-#    - Makes the SimpleTurtle go to the Point at (100, -40).
+#    - Makes the SimpleTurtle go to the Point at (100, -40). //
 #
-#    - Makes the SimpleTurtle put its pen DOWN
+#    - Makes the SimpleTurtle put its pen DOWN //
 #         (so that the next movements will return to leaving a "trail").
 #
-#    - Makes the SimpleTurtle's pen have color 'green' and thickness 10.
+#    - Makes the SimpleTurtle's pen have color 'green' and thickness 10. //
 #
-#    - Makes the SimpleTurtle go 150 pixels straight DOWN.
+#    - Makes the SimpleTurtle go 150 pixels straight DOWN. //
 #
 #   Don't forget to:
 #     - import rosegraphics and construct a TurtleWindow
@@ -49,6 +49,17 @@ window.delay(20)
 
 blue_turtle = rg.SimpleTurtle('turtle')
 blue_turtle.pen = rg.Pen('blue', 10)
+blue_turtle.speed = 10
 
+blue_turtle.left(90)
+blue_turtle.forward(200)
 
+blue_turtle.pen_up()
+blue_turtle.go_to(rg.Point(100, -40))
+blue_turtle.pen_down()
+
+blue_turtle.pen = rg.Pen('green', 10)
+blue_turtle.backward(150)
+
+window.close_on_mouse_click()
 ########################################################################

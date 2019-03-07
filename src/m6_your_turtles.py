@@ -34,7 +34,7 @@ window.delay(20)
 
 circle = rg.SimpleTurtle('turtle')
 circle.pen = rg.Pen('blue', 5)  # color and thickness
-circle.speed = 20  # medium speed (higher value, the faster)
+circle.speed = 20  # fast speed (higher value, the faster)
 size = 150
 circle.pen_up()
 circle.forward(-200)

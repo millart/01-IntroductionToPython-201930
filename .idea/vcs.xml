@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../02-ObjectsFunctionsAndMethods-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../03-AccumulatorsAndFunctionsWithParameters-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../04-TheAccumulatorPattern-201930" vcs="Git" />
   </component>
 </project>

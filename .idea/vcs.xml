@@ -7,5 +7,6 @@
     <mapping directory="$PROJECT_DIR$/../04-TheAccumulatorPattern-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../05a-Debugging-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../05b-Exam1Practice-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../06-IntroductionToRobots-201930" vcs="Git" />
   </component>
 </project>

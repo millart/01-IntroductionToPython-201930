@@ -15,5 +15,6 @@
     <mapping directory="$PROJECT_DIR$/../12-MoreSequences-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../13-StillMoreSequences-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../14-Exam2Practice-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../16-WaitUntilEvents_WhileLoops-201930" vcs="Git" />
   </component>
 </project>

@@ -16,5 +16,9 @@
     <mapping directory="$PROJECT_DIR$/../13-StillMoreSequences-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../14-Exam2Practice-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../16-WaitUntilEvents_WhileLoops-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../17-LoopsWIthinLoops-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../18-Exam2-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../18-MoreLoopsWithinLoops-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../21-FunctionalDecomposition-201930" vcs="Git" />
   </component>
 </project>

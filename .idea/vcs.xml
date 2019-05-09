@@ -20,5 +20,7 @@
     <mapping directory="$PROJECT_DIR$/../18-Exam2-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../18-MoreLoopsWithinLoops-201930" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../21-FunctionalDecomposition-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../24-FinalExamPractice-201930" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../25-Tkinter-201930" vcs="Git" />
   </component>
 </project>
